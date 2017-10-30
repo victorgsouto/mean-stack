@@ -7,7 +7,7 @@ var filme = new Filme({
 });
 filme.save(function(erro, filme){
     if(erro) console.log(erro);
-    console.log('Gravando: ' + filme.titulo + ' no Banco de Dados');
+    console.log('Gravando ' + filme.titulo + ' no Banco de Dados');
 });
 
 
