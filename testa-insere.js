@@ -1,7 +1,7 @@
 var Filme = require('./models/filmes');
 
 var filme = new Filme({
-    titulo: 'Senhor dos Aneis',
+    titulo: 'Senhor dos Aneis 3030',
     diretor: 'Peter Jackson',
     ano: '2001'
 });
