@@ -7,6 +7,7 @@ var http = require('http');
 //chama o path
 var bodyParser = require('body-parser');
 
+console.log('teste')
 //chama as rotas
 var routes = require('./routes');
 
